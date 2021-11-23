@@ -1,11 +1,12 @@
 .container {
-  
+
   @media (max-width: 768px) {
     padding: 0;
   }
-  
+
   padding: 0 2rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -14,4 +15,20 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+
+  h1 {
+    text-align: center;
+  }
+
+}
+
+.floppa {
+
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  img {
+    border-radius: 8px;
+  }
 }
